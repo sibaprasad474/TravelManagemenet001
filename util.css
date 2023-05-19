@@ -106,3 +106,19 @@
   color: black;
   font-size: 10px;
 }
+/* -----------login-signup page------------ */
+.login-container{
+  height: 80vh;
+  width: 80%;
+  background-color:rgba(228, 98, 189, 0.5);
+  box-shadow:5px 5px 20px 0px #eee,-5px -5px 20px 0px #eee;
+}
+.mx-tb{
+  margin: auto;
+}
+/* .pt-2{
+  padding-top: 1rem;
+} */
+.bg-black{
+  background-color: black;
+}
