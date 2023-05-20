@@ -123,15 +123,27 @@
   background-color: black;
 }
 .btn-login{
-  height: 4vh;
+  height: 5vh;
   font-family: 'Courier New', Courier, monospace;
   margin: auto;
   text-align: center;
   cursor: pointer;
+  width: 35%;
+  background-color: black;
+  color: #eee;
+  border-radius: 1rem;
+}
+.btn-login:hover{
+  background-color: #eee;
+  color: black;
+  transition:0.5s ease-in-out;
 }
 .mar-btm{
   margin-bottom: 15px;
 }
 .bg-sign{
   border-radius: 1rem;
+}
+.mx-l{
+  margin-left: 20px;
 }

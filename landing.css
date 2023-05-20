@@ -4,14 +4,7 @@
 }
 body {
  background: linear-gradient(135deg, #fc1099cb, #3d869c);
- /* background: url("https://unsplash.com/photos/Bkci_8qcdvQ"); */
 }
-/* body{
-    background-image: url(https://media.istockphoto.com/id/1049254702/photo/sunrise-on-the-pragser-wildsee.jpg?b=1&s=170667a&w=0&k=20&c=xwSSA6bcqL2_3xfkqH7gvbTbFnIEVYWx9cqs9KONVDs=);
-    background-position:cover;
-    overflow: hidden;
-    background-repeat: no-repeat;
-} */
 li a{
   list-style: none;
   text-decoration: none;
