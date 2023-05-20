@@ -1,0 +1,13 @@
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="landing.css" />
     <link rel="stylesheet" href="util.css" />
     <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/f9ce028d6b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
         >
           <div class="flex items-centre font-bold text-white">mishra jii</div>
           <ul class="navbar flex gap items-centre font-1">
-            <a href="/landing.html"><li>Home</li></a>
+            <li><a href="/landing.html">Home</a></li>
             <li>About</li>
             <li>Contact</li>
             <li>Feedbback</li>
@@ -29,25 +30,33 @@
       </header>
       <main class="min-h-screen flex">
         <div class="login-container flex mx-tb flex-col justify-centre items-centre">
-            <h1>Sign Up</h1>
+            <h1 class="text-blue mar-btm bg-sign">Sign Up</h1>
             <form action="#">
                 <div class="input-group flex flex-col">
-                    <div class="input-field">
-                        <i class="fa-solid fa-user fa-fade"></i>
-                        <input type="text" placeholder="Username" required>
+                    <div class="input-field flex items-centre">
+                      <label for="text" id="text"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" placeholder="Username" required class="inp-box">
                         
                     </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock fa-fade"></i>
-                        <input type="email" placeholder="email" required>
+                     <div class="input-field flex items-centre"> 
+                        <label for="email" id="email"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" placeholder="enter your email" required class="inp-box">
 
                     </div>
+                    <div class="input-field flex items-centre">
+                       <label for="password" id="password"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" placeholder="password" required class="inp-box">
+                    </div>
                 </div>
+                <div class="flex justify-centre items-centre">
+                 <button type="submit" class="btn-login">submit</button>
+               </div>
+           </div>
             </form>
         </div>
       </main>
 <!-- -------------------footer section------------------------ -->
-      <div class="footer">
+      <!-- <div class="footer">
         <div class="contain">
             <div class="col">
               <ul>
@@ -89,7 +98,7 @@
             <div class="clearfix"></div>
             <footer class="foot">
                 <p class="flex justify-centre px-2 text-white font-bold"> Copyright © 2023 - All rights Reserved .  Designed and Developed by Sibaprasad Mishra. </p>
-            </footer>
+            </footer> -->
     </div>
   </body>
 </html>

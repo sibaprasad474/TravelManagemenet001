@@ -108,8 +108,8 @@
 }
 /* -----------login-signup page------------ */
 .login-container{
-  height: 80vh;
-  width: 80%;
+  height: 50vh;
+  width: 60%;
   background-color:rgba(228, 98, 189, 0.5);
   box-shadow:5px 5px 20px 0px #eee,-5px -5px 20px 0px #eee;
 }
@@ -121,4 +121,17 @@
 } */
 .bg-black{
   background-color: black;
+}
+.btn-login{
+  height: 4vh;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.mar-btm{
+  margin-bottom: 15px;
+}
+.bg-sign{
+  border-radius: 1rem;
 }
