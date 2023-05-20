@@ -1,0 +1,11 @@
+.footer-section{
+    height: 45vh;
+    border: 1px solid black;
+}
+.container-footer{
+    align-items: center;
+    height: 100%;
+}
+.section{
+    border: 1px solid #eee;
+}
